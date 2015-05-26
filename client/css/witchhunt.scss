@@ -2,7 +2,7 @@
 @import "inputs.scss";
 
 body {
-	background-color: $lightblue;
+	background-color: $light-blue;
 	color: $text-color;
 }
 
@@ -44,7 +44,7 @@ h1 {
 		margin: 3px;
 		color: $text-color;
 		font-weight: bolder;
-		background-color: $darkblue;
+		background-color: $dark-blue;
 		text-decoration: none;
 	}
 }
@@ -59,7 +59,7 @@ h1 {
 }
 
 .page {
-	padding-top: $topheader + 8px;
+	padding-top: $header-height + 8px;
 }
 
 #fixed_footer {
@@ -104,9 +104,9 @@ h1 {
 
 button {
 	border-radius: 3px;
-	border-color: $darkblue;
+	border-color: $dark-blue;
 	color: $yellow;
-	background-color: $lightblue;
+	background-color: $light-blue;
 }
 
 .games-list {
@@ -114,8 +114,8 @@ button {
 	width: 20vw;
 	li {
 		border-radius: 3px;
-		border: 1px solid $darkblue;
-		background-color: $darkblue;
+		border: 1px solid $dark-blue;
+		background-color: $dark-blue;
 		margin: 2px;
 		position: relative;
 		.description {
@@ -156,7 +156,7 @@ button {
 		position:relative;
 		text-align: center;
 		border: 1px solid $yellow;
-		background-color: $darkblue
+		background-color: $dark-blue
 	}
 
 	.card.shown {
@@ -166,7 +166,7 @@ button {
 
 .back {
 	position: absolute;
-	height: $topheader;
+	height: $header-height;
 	top: 1vh;
 	left: 1vh;
 	font-size: 1.5em;
