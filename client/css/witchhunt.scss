@@ -1,11 +1,5 @@
-$yellow: rgb(255, 165, 0);
-$darkblue: #0c2032;
-$lightblue: rgb(27, 49, 71);
-$topheader: 30px;
-
-
-$text-color: #FFFFFF;
-$footer-background: $darkblue;
+@import "base";
+@import "inputs.scss";
 
 body {
 	background-color: $lightblue;
