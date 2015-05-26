@@ -1,13 +1,19 @@
+@import url("http://fonts.googleapis.com/css?family=Lobster+Two");
 @import "base";
 @import "inputs.scss";
+@import "fonts";
 
 body {
-	background-color: $light-blue;
+	background-color: $dark-grey;
 	color: $text-color;
 }
 
 h1 {
 	text-align: center;
+	&.title {
+		font: 300% $title-font;
+		color: $yellow;
+	}
 }
 
 #login_container {
@@ -39,13 +45,22 @@ h1 {
 	}
 
 	.login-link-text {
-		border-radius: 3px;
 		padding: 3px;
 		margin: 3px;
 		color: $text-color;
 		font-weight: bolder;
-		background-color: $dark-blue;
+		background-color: $gold;
 		text-decoration: none;
+		border: 2px solid;
+		border-radius: 8px;
+		border-color: $yellow $brown $dark-brown $brown !important;
+		transition: all .25s;
+		&:hover {
+			background-color: $yellow;
+		}
+		&:active {
+			background-color: $brown;
+		}
 	}
 }
 
